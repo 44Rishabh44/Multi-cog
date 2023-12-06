@@ -12,7 +12,7 @@
 }
 
 h1 {
-    height:10rem;
+    height:0rem;
     background-color: black;
     color: #47B7E0;
     font-size: 100px;
@@ -21,7 +21,7 @@ h1 {
 
 .Heading {
     background-color: black;
-    height: 100px;
+    height: 184px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,14 +101,13 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 80px 980px 80px 250px;
+    width: 40rem;
 }
 
 .section2 {
-    height: 850px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -925px 160px 80px 1100px;
+    height: 850px;    
+    margin: -862px 160px 78px 541px;
+    width: 21rem;
 }
 
 .content {
