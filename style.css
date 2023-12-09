@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:rgb(18, 49, 201) ;
+}
+
 .overlap {
     padding-top: 60px;
     height: 180px;
@@ -13,7 +17,7 @@
 
 h1 {
     background-color: black;
-    color: #47B7E0;
+    color: white;
     font-size: 5rem; /* Adjust the font size for smaller screens */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -73,6 +77,14 @@ nav a:hover {
     color: black;
 }
 
+.bg-col{
+    background-color: rgb(18, 49, 201);
+    filter: blur(2px);
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
 article {
     display: flex;
     justify-content: center;
@@ -94,6 +106,7 @@ article {
     margin-left: 30px;
 }
 
+
 ul {
     list-style-type: none;
     font-size: 1.5em; /* Adjust the font size for smaller screens */
@@ -105,9 +118,10 @@ ul {
 }
 
 .section1{
+    color: white;
     padding-top: 5em;
     width: 30em;
-    margin-left: 7rem;
+    margin-left: 10rem;
 }
 
 
@@ -125,6 +139,7 @@ ul {
 }
 
 .section2{
+    color: white;
     width: 18em;
     margin: -32em 0em -10rem 30em;
 }
@@ -137,17 +152,17 @@ ul {
     margin-left: 4em;
 }
 
-.content {
-    margin: 15px;
-    background-color: white;
+.content{
+    margin-left: em;
 }
 
 .img {
     background-image: url("what_is_Computer_Vision.jpg");
     background-size: cover;
-    width: 100%;
-    height: 50rem; /* Adjust the height for smaller screens */
-    margin-top: 10px;
+    /*width: 100%;
+    height: 50rem;  Adjust the height for smaller screens 
+    margin-top: 10px;*/
+    
 }
 
 .Foot {
@@ -173,30 +188,74 @@ p {
         font-size: 3em;
     }
 
+
     .navbar {
         font-size: 1em;
     }
 
 
+    .art{
+        margin-left: 5em;
+    }
+
+    #png{
+        margin-left: 1em;
+    }
+
+    #cen{
+        margin-left: -10em;
+    }
+
+    #png2{
+        margin-left: 1em;
+    }
+
+    #cen2{
+        margin-left: 0em;
+    }
+
     .section1{
-        margin: 0;
+        padding-left: 0em;
+        margin: 0em;
         font-size: 0.9em;
         width: 23em;
     }
     .section2 {
+        padding-left: 2em;
         padding-top: 5em;
-        margin: 0;
+        margin: 0 0 0 0em;
         font-size: 0.9em;
         width: 23em;
     }
 
-    .img {
-        background-size:cover;
-        width: auto;
-        height: 20em;
+    footer{
+        margin-top: -16em;
     }
 
-    footer{
-        margin-top: -20em;
+}
+
+@media screen and (max-width: 799px) {
+    .side1, .side2{
+        display:none;
     }
+}
+
+
+.side1{
+    background-color: black;
+    height: 110em;
+    width: 8em;
+    position: absolute;
+    overflow: auto;
+}
+
+.side2{
+    display: flexbox;
+    justify-content: flex-end;
+    background-color: black;
+    height: 110em;
+    width: 8em;
+    margin-top: -64.5em;
+    margin-left: 111em;
+    position: absolute;
 }
