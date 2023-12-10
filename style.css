@@ -11,8 +11,9 @@ body{
 .overlap {
     padding-top: 60px;
     height: 180px;
-    display: flex;
-    justify-content: center;
+    width: 1100em;
+    margin-right: 2000em;
+    margin-left: 10em;
 }
 
 h1 {
@@ -28,6 +29,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    padding-left: 35em;
+}
+
+.Heading::-webkit-scrollbar{
+    transform: scale(10);
 }
 
 hr {
@@ -38,7 +46,7 @@ hr {
 }
 
 .navbar {
-    width: auto;
+    width: auto3
     height: auto;
     display: flex;
     justify-content: center;
@@ -48,6 +56,7 @@ hr {
 }
 
 .fa-solid {
+    margin-top: 6em;
     margin-left: 30px; /* Adjust the margin for smaller screens */
     color: white;
     margin-right: 4em;
@@ -57,6 +66,7 @@ nav {
     border-top: 2px;
     background-color: black;
     overflow: hidden;
+    margin-top: 6em;
 }
 
 nav a {
@@ -78,7 +88,7 @@ nav a:hover {
 }
 
 .bg-col{
-    background-color: rgb(18, 49, 201);
+    background-color: rgb(56, 76, 178);
     filter: blur(2px);
     /* Add the blur effect */
     filter: blur(8px);
@@ -93,8 +103,9 @@ article {
 
 #See{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 17, 255)
-    border-style:double;
+    color: rgb(251, 255, 0);
+    border-width: 1px;
+    border-style:dotted;
     text-decoration: none;
 }
 
@@ -170,9 +181,11 @@ ul {
     margin-top: 40rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 2em;
     background-color: black;
 }
+
+
 
 .fa-copyright {
     margin-right: 10px;
@@ -182,7 +195,7 @@ p {
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     /* Adjust styles for screens with a maximum width of 768 pixels */
     h1 {
         font-size: 3em;
@@ -229,14 +242,41 @@ p {
     }
 
     footer{
-        margin-top: -16em;
+        margin-top: -20em;
     }
 
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 1080px) {
     .side1, .side2{
         display:none;
+    }
+    .Heading{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+    h1{
+        font-size: 3em;
+        color: white;
+    }
+    .overlap{
+        height: 10em;
+        padding-left:5em;
+        margin-top: -2em;
+        margin-left: -1em;
+    }
+
+    .navbar{
+        height: 22em;
+        margin-bottom: -2em;
+    }
+
+    nav{
+        border-top-style: double;
+        border-top-color: white;
+        border-width: 2px;
     }
 }
 
