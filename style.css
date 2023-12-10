@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:rgb(24, 52, 193) ;
+    background-color:rgb(173, 17, 111) ;
 }
 
 .overlap {
@@ -17,25 +17,24 @@ body{
 }
 
 h1 {
-    background-color: black;
+    background-color: rgb(33, 95, 252);
     color: white;
     font-size: 5rem; /* Adjust the font size for smaller screens */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .Heading {
-    background-color: black;
-    height: 160px;
+    background-color: rgb(33, 95, 252);
+    height: 150px;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     padding-left: 35em;
-}
-
-.Heading::-webkit-scrollbar{
-    transform: scale(10);
 }
 
 hr {
@@ -46,12 +45,12 @@ hr {
 }
 
 .navbar {
-    width: auto3
+    width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(33, 95, 252);
     font-size: 1.5em; /* Adjust the font size for smaller screens */
 }
 
@@ -63,8 +62,7 @@ hr {
 }
 
 nav {
-    border-top: 2px;
-    background-color: black;
+    background-color: rgb(33, 95, 252);
     overflow: hidden;
     margin-top: 6em;
 }
@@ -72,7 +70,7 @@ nav {
 nav a {
     float: left;
     display: block;
-    background-color: black;
+    background-color: rgb(33, 95, 252);
     color: white;
     font-size: 1.2em; /* Adjust the font size for smaller screens */
     text-align: center;
@@ -177,18 +175,24 @@ ul {
 }
 
 .Foot {
-    height: 150px;
+    height: 160px;
     margin-top: 40rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 2em;
-    background-color: black;
+    padding-bottom: 5em;
+    background-color: rgb(33, 95, 252);
 }
-
+p#ft{
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .fa-copyright {
     margin-right: 10px;
+    margin-top: -0.1em;
 }
 
 p {
@@ -282,8 +286,8 @@ p {
 
 
 .side1{
-    background-color: black;
-    height: 110em;
+    background-color: rgb(33, 95, 252);
+    height: 114em;
     width: 8em;
     position: absolute;
     overflow: auto;
@@ -292,10 +296,10 @@ p {
 .side2{
     display: flexbox;
     justify-content: flex-end;
-    background-color: black;
-    height: 110em;
+    background-color:rgb(33, 95, 252) ;
+    height: 115em;
     width: 8em;
-    margin-top: -64.5em;
+    margin-top: -65em;
     margin-left: 111em;
     position: absolute;
 }
