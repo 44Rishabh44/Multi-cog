@@ -176,13 +176,6 @@ ul {
     padding-bottom: 5em;
     background-color: rgb(20, 57, 163);
 }
-p#ft{
-    padding-top: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .fa-copyright {
     margin-right: 10px;
@@ -209,7 +202,7 @@ p {
     height: 115em;
     width: 8em;
     margin-top: -65em;
-    margin-left: 111em;
+    margin-left: 112em;
     position: absolute;
 }
 
@@ -270,6 +263,11 @@ p {
     .side1, .side2{
         display:none;
     }
+
+    .logo{
+        display: none;
+    }
+
     .Heading{
         display: flex;
         justify-content: center;
@@ -292,11 +290,27 @@ p {
         margin-bottom: -2em;
     }
 
-    nav{
-        border-top-style: double;
-        border-top-color: white;
-        border-width: 2px;
+    #call{
+        margin-left: -3.1em;
+    }
+
+    #ft{
+        margin-left:1em;
     }
 }
 
 
+p#ft{
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5em;
+    width: 0.1em;
+}
+
+
+#call{
+    padding-left: 10em;
+    padding-top: 4em;
+}
