@@ -148,7 +148,7 @@ article {
 
 .Foot {
     height: 160px;
-    margin-top: 42rem;
+    margin-top: 44rem;
     display: flex;
     justify-content: center;
     padding-bottom: 5em;
@@ -188,8 +188,8 @@ p {
     background-color:rgb(20, 57, 163) ;
     height: 114em;
     width: 8em;
-    margin-top: -62.5em;
-    margin-left: 111em;
+    margin-top: -61em;
+    margin-left: 112em;
     position: absolute;
 }
 
@@ -226,6 +226,7 @@ p {
     }
 
     .section1{
+        text-align: center;
         padding-left: 0em;
         margin: 0em;
         font-size: 0.9em;
@@ -241,6 +242,7 @@ p {
 
     footer{
         margin-top: -20em;
+        width: 26em;
     }
 
 }
@@ -249,6 +251,11 @@ p {
     .side1, .side2{
         display:none;
     }
+    
+    .logo{
+        display: none;
+    }
+
     .Heading{
         display: flex;
         justify-content: center;
@@ -258,6 +265,10 @@ p {
     h1{
         font-size: 3em;
         color: white;
+    }
+
+    hr{
+        width: 26em;
     }
     .overlap{
         height: 10em;
@@ -271,10 +282,18 @@ p {
         margin-bottom: -2em;
     }
 
-    nav{
-        border-top-style: double;
-        border-top-color: white;
-        border-width: 2px;
+    #home{
+    margin-left: 4em;
+    margin-bottom: 3em;
+    }
+
+    table{
+        margin-left: -2em;
+    }
+
+    #See{
+        text-align: center;
+        margin-left: -10em;
     }
 }
 
@@ -324,4 +343,10 @@ th{
     margin-left: 10em;
     text-decoration: none;
     border: 1px dotted;
+}
+
+#home{
+    color: white;
+    margin-right: 2em;
+    margin-top: 6em;
 }
