@@ -130,8 +130,8 @@ ul {
 .section1{
     color: white;
     padding-top: 5em;
-    width: 30em;
-    margin-left: 10rem;
+    width: 45em;
+    margin-left: 7rem;
 }
 
 
@@ -208,7 +208,7 @@ p {
     height: 114em;
     width: 8em;
     margin-top: -64em;
-    margin-left: 111em;
+    margin-left: 112em;
     position: absolute;
 }
 
@@ -248,7 +248,7 @@ p {
         padding-left: 0em;
         margin: 0em;
         font-size: 0.9em;
-        width: 23em;
+        width: 30em;
     }
     .section2 {
         padding-left: 2em;
@@ -267,6 +267,9 @@ p {
 @media screen and (max-width: 1080px) {
     .side1, .side2{
         display:none;
+    }
+    .logo{
+        display: none;
     }
     .Heading{
         display: flex;
@@ -297,3 +300,65 @@ p {
     }
 }
 
+/* Slidebar*/
+
+
+.slider-container {
+    text-align: center;
+    width: 110em;
+    margin-top: 7em;
+    margin-left: 5em;
+    position: absolute;
+}
+
+#range {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px;
+    margin: 10px 0;
+    background: rgb(20, 57, 163);
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 40px;
+    background: rgb(20, 57, 163);
+    cursor:grab;
+    border: 5px double rgb(61, 89, 168);
+    border-radius: 30%;
+}
+
+#beg-year{
+    font-size: 40px;
+    color: white;
+}
+
+#selected-year {
+    font-size: 40px;
+    color: white;
+}
+
+
+/*Section*/
+#year{
+    padding-top: 5em;
+    padding-left: 9em;
+    font-size: 3em;
+    background-color: rgb(61, 89, 168);
+}
+
+li{
+    margin-left: 10em;
+    padding-left: 6em;
+    text-align: center;
+}
