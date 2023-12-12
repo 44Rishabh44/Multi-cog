@@ -13,7 +13,6 @@ body{
     padding-left: 26em;
     height: 180px;
     width: 1100em;
-    margin-right: 2000em;
     margin-left: 10em;
 }
 
@@ -58,7 +57,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 3em;
+    margin-left: -6em;
+    padding-left: 5em;
     background-color: rgb(61, 89, 168);
     font-size: 1.5em; /* Adjust the font size for smaller screens */
 }
@@ -77,7 +77,7 @@ nav a {
     color: white;
     font-size: 1.2em; /* Adjust the font size for smaller screens */
     text-align: center;
-    margin-left: -1px;
+    margin-left: 1px;
     margin-right: 1em; /* Adjust the margin for smaller screens */
     padding: 14px 16px;
     text-decoration: none;
@@ -128,7 +128,7 @@ ul {
 
 .section1{
     color: white;
-    padding-top: 5em;
+    padding-top: 11em;
     width: 30em;
     margin-left: 10rem;
     text-align:center;
@@ -170,7 +170,7 @@ ul {
 
 .Foot {
     height: 160px;
-    margin-top: 40rem;
+    margin-top: 26rem;
     display: flex;
     justify-content: center;
     padding-bottom: 5em;
@@ -199,10 +199,10 @@ p {
     display: flexbox;
     justify-content: flex-end;
     background-color:rgb(20, 57, 163);
-    height: 115em;
+    height: 114em;
     width: 8em;
-    margin-top: -65em;
-    margin-left: 111em;
+    margin-top: -79.2em;
+    margin-left: 112em;
     position: absolute;
 }
 
@@ -216,6 +216,7 @@ p {
 
     .navbar {
         font-size: 1em;
+        margin-left: 0em;
     }
 
 
@@ -224,24 +225,25 @@ p {
     }
 
     #png{
-        margin-left: 1em;
+        margin-left: 7em;
     }
 
     #cen{
-        margin-left: -10em;
+        margin-left: -m;
     }
 
     #png2{
-        margin-left: 1em;
+        margin-left: 8em;
     }
 
     #cen2{
-        margin-left: 0em;
+        margin-left: 7em;
     }
 
     .section1{
         padding-left: 0em;
         margin: 0em;
+        margin-top: -10em;
         font-size: 0.9em;
         width: 23em;
     }
@@ -268,6 +270,10 @@ p {
         display: none;
     }
 
+    .scaling-element{
+        display: none;
+    }
+
     .Heading{
         display: flex;
         justify-content: center;
@@ -286,7 +292,8 @@ p {
     }
 
     .navbar{
-        height: 22em;
+        padding-top: 4em;
+        height: 18em;
         margin-bottom: -2em;
     }
 
@@ -296,6 +303,11 @@ p {
 
     #ft{
         margin-left:1em;
+    }
+    .fa-sharp{
+        margin-left: 2em;
+    }
+    i#call.fa-solid{
     }
 }
 
@@ -313,4 +325,17 @@ p#ft{
 #call{
     padding-left: 10em;
     padding-top: 4em;
+}
+
+.scaling-element {
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    font-size: 8em;
+    margin: 1em 0 0 3em;
+    position: absolute;
+}
+
+/* Adjust the scale factor as needed */
+.scaled {
+    transform: scale(1.5);
 }
