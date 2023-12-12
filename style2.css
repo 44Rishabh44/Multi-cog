@@ -162,6 +162,59 @@ p#ft{
     align-items: center;
 }
 
+/* RESEARCH PAGE*/
+#img1{
+    background-image: url("Research1.png");
+    background-size:contain;
+    margin-left: 5em;
+    margin-top: -1em;
+    height: 10em;
+    width: 11em;
+    size-adjust: 2em;
+}
+
+li{
+    font-size: 1em;
+    text-align:center;
+}
+
+#main{
+    font-size: 2em;
+}
+
+caption{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+table{
+    width: 25em;
+    border: 1px double white;
+}
+
+tr{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+th{
+    border: 1px dashed white;
+}
+
+#See{
+    font-size: 1.3em;
+    color: white;
+    margin-left: 10em;
+    text-decoration: none;
+    border: 1px dotted;
+}
+
+#home{
+    color: white;
+    margin-right: 2em;
+    margin-top: 6em;
+}
 
 .fa-copyright {
     margin-right: 10px;
@@ -234,7 +287,7 @@ p {
     }
     .section2 {
         padding-left: 2em;
-        padding-top: 5em;
+        padding-top: em;
         margin: 0 0 0 0em;
         font-size: 0.9em;
         width: 23em;
@@ -242,9 +295,24 @@ p {
 
     footer{
         margin-top: -20em;
-        width: 26em;
+        width: 28em;
+    }
+    p#call{
+        margin-top: 20em;
+        margin-left: -1em;
     }
 
+    #ft{
+        margin-left:1em;
+    }
+    p{
+        margin-top: 1em;
+        padding-top: 2em;
+    }
+    .fa-solid fa-phone{
+        padding-top: 2em;
+    }
+    
 }
 
 @media screen and (max-width: 1080px) {
@@ -268,7 +336,7 @@ p {
     }
 
     hr{
-        width: 26em;
+        width: 28em;
     }
     .overlap{
         height: 10em;
@@ -293,60 +361,6 @@ p {
 
     #See{
         text-align: center;
-        margin-left: -10em;
     }
 }
 
-/* RESEARCH PAGE*/
-#img1{
-    background-image: url("Research1.png");
-    background-size:contain;
-    margin-left: 5em;
-    margin-top: -1em;
-    height: 10em;
-    width: 11em;
-    size-adjust: 2em;
-}
-
-li{
-    font-size: 1em;
-    text-align:center;
-}
-
-#main{
-    font-size: 2em;
-}
-
-caption{
-    font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-}
-
-table{
-    width: 25em;
-    border: 1px double white;
-}
-
-tr{
-    font-size: 1.5em;
-    text-align: center;
-}
-
-th{
-    border: 1px dashed white;
-}
-
-#See{
-    font-size: 1.3em;
-    color: white;
-    margin-left: 10em;
-    text-decoration: none;
-    border: 1px dotted;
-}
-
-#home{
-    color: white;
-    margin-right: 2em;
-    margin-top: 6em;
-}
