@@ -131,11 +131,24 @@ ul {
 
 .section1{
     color: white;
-    padding-top: 5em;
-    width: 30em;
-    margin-left: 10rem;
+    padding-top: 2em;
+    width: 22em;
+    margin-left: 6em;
+    font-size: 1.6em;
 }
 
+#sub{
+    font-size: 0.7em;
+    padding-top: 1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.new{
+    font-size: 0.7em;
+    list-style-type: none;
+}
 
 #png{
     background-image: url("group.png");
@@ -153,6 +166,7 @@ ul {
 .section2{
     color: white;
     width: 18em;
+    height: 2em;
     margin: -32em 0em -10rem 30em;
 }
 
@@ -171,10 +185,9 @@ ul {
 
 .Foot {
     height: 160px;
-    margin-top: 40rem;
+    margin-top: 46em;
     display: flex;
     justify-content: center;
-    padding-bottom: 5em;
     background-color: rgb(20, 57, 163);
 }
 p#ft{
@@ -197,7 +210,7 @@ p {
 
 .side1{
     background-color: rgb(20, 57, 163);
-    height: 114em;
+    height: 101em;
     width: 8em;
     position: absolute;
     overflow: auto;
@@ -207,9 +220,9 @@ p {
     display: flexbox;
     justify-content: flex-end;
     background-color:rgb(20, 57, 163) ;
-    height: 114em;
+    height: 102em;
     width: 8em;
-    margin-top: -64em;
+    margin-top: -47em;
     margin-left: 111em;
     position: absolute;
 }
@@ -249,11 +262,11 @@ p {
     .section1{
         padding-left: 0em;
         margin: 0em;
-        font-size: 0.9em;
-        width: 23em;
+        font-size: 1.2em;
+        width: 13em;
     }
     .section2 {
-        padding-left: 2em;
+        padding-left: 0em;
         padding-top: 5em;
         margin: 0 0 0 0em;
         font-size: 0.9em;
@@ -261,14 +274,23 @@ p {
     }
 
     footer{
-        margin-top: -20em;
+        margin-top: -40em;
     }
-
+    #call{
+        margin-top: 4em;
+        margin-right: -0.1em;
+        margin-left: -0.1em;
+    }
 }
 
 @media screen and (max-width: 1080px) {
     .side1, .side2{
         display:none;
+    }
+
+    
+    .logo{
+        display: none;
     }
     .Heading{
         display: flex;
@@ -284,7 +306,7 @@ p {
         height: 10em;
         padding-left:5em;
         margin-top: -2em;
-        margin-left: -1em;
+        margin-left: 4em;
     }
 
     .navbar{
@@ -292,10 +314,5 @@ p {
         margin-bottom: -2em;
     }
 
-    nav{
-        border-top-style: double;
-        border-top-color: white;
-        border-width: 2px;
-    }
 }
 
