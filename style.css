@@ -331,7 +331,7 @@ p#ft{
     transition: transform 0.3s ease;
     transform-origin: center;
     font-size: 8em;
-    margin: 1em 0 0 3em;
+    margin: 1.3em 0 0 3em;
     position: absolute;
 }
 
