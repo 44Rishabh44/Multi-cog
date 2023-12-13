@@ -237,7 +237,9 @@ p {
     .navbar {
         font-size: 1em;
     }
-
+    ul.section1{
+        margin-left: -2em;
+    }
 
     .art{
         margin-left: 5em;
