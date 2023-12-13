@@ -164,7 +164,7 @@ ul {
 
 .Foot {
     height: 160px;
-    margin-top: 33rem;
+    margin-top: 23rem;
     display: flex;
     justify-content: center;
     padding-bottom: 5em;
@@ -202,11 +202,52 @@ p {
     background-color:rgb(20, 57, 163) ;
     height: 273em;
     width: 8em;
-    margin-top: -239em;
+    margin-top: -249.5em;
     margin-left: 111em;
     position: absolute;
 }
 
+
+
+.section1{
+    color: white;
+    background-color: blanchedalmond;
+    padding-top: 5em;
+    width: 30em;
+    height: 30em;
+    margin-left: 30em;
+    margin-top: 8em;
+}
+
+
+
+
+#profile{
+    width: 28em;
+    height: 30em;
+    margin-left: 2em;
+    margin-top: -5em;
+}
+
+#faculty{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    padding-left: 14em;
+    padding-top: 1em;
+}
+
+li{
+    color: white;
+}
+ul.details{
+    padding: 1em;
+    border: 2px double white;
+    margin-top: -20em;
+    margin-left: 45em;
+    width: 26em;
+    height: 25em;
+}
 
 @media only screen and (max-width: 1080px) {
     /* Adjust styles for screens with a maximum width of 768 pixels */
@@ -252,10 +293,9 @@ p {
         margin-top: 0em;
     }
     section.section2 {
-        width: 0em;
+        width: 10em;
         margin-left: 20em;
-        
-        margin-left: em;
+        margin-left: -58em;
     }
     ul.details{
         margin-top: -20em;
@@ -270,25 +310,27 @@ p {
         height: 60em;
     }
     p{
-        margin-left: -10em;
-        width: 15em;;
+        margin-left: 0em;
+        width: 12em;;
     }
-    li#name.top{
-        margin-top: -5em;
+    li{
+        font-size: 0.8em;
     }
     img#profile{
-        height: 15em;
-        width: 15em;
-        margin-left: 3em;
-        margin-bottom: -18em;
+        height: 10em;
+        width: 10em;
+        margin-left: -1em;
+        margin-bottom: -1em;
     }
     section{
-        font-size: 1em;
-    }
+        font-size: 1em;    }
     #faculty{
         margin-left: -10em;
         height: 2em;
 
+    }
+    ul.details{
+        width: 15em;
     }
 }
 
@@ -334,42 +376,4 @@ p {
         text-align: center;
         margin-left:-12em;
     }
-}
-
-
-.section1{
-    color: white;
-    background-color: blanchedalmond;
-    padding-top: 5em;
-    width: 30em;
-    height: 30em;
-    margin-left: 30em;
-    margin-top: 8em;
-}
-
-
-.section2{
-    text-align: center;
-    height: 35em;
-    width: 35em;
-    color: white;
-    background-color: rgb(61, 89, 168);
-    margin-top: -30em;
-    margin-left: 65em;
-}
-
-
-#profile{
-    width: 28em;
-    height: 30em;
-    margin-left: 2em;
-    margin-top: -5em;
-}
-
-#faculty{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4em;
-    padding-left: 14em;
-    padding-top: 1em;
 }
