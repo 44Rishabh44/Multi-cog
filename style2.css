@@ -199,7 +199,7 @@ tr{
 }
 
 th{
-    border: 1px dashed white;
+    border: 1px solid white;
 }
 
 #See{
@@ -207,7 +207,7 @@ th{
     color: white;
     margin-left: 10em;
     text-decoration: none;
-    border: 1px dotted;
+    border: 1px;
 }
 
 #home{
