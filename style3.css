@@ -1,73 +1,389 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PUBLICATION</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style3.css">
-</head>
-<body>
-    <header>
-        <div class="Heading">
-            <img class="logo" src="research-logo.png" alt="No Preview">
-            <div class="overlap">
-            <pre><h1>PUBLICATION</h1></pre>
-            </div>
-            <div class="glass">
-                
-            </div>
-        </div>
-        <div class="navbar">
-            <a href="index.html"><i class="fa-solid fa-house" target="_main"></i></a>
-            
-            <nav>
-                <a href="Research.html" target="_main">Research</a>
-                <a href="Dataset.html" target="_main">Datasets</a>
-                <a href="News.html" target="_main">News</a>
-                <a href="People.html" target="_main">People</a>
-            </nav>
-        </div>
-    </header>
-    <hr>
-    <div class="slider-container">
-        <label id="range" for="year-range">Select a Year:</label><br><br><br><span id="beg-year">2010</span>
-        <input type="range" id="year-range" name="year-range" min="2010" max="2022" value="2000">
-        <span id="selected-year">2022</span>
-    </div>
-    <div class="img"></div>
-<div class="side1"></div>
-<div class="bg-col"></div>
-<div class="content">
-    <section class="section1">
-        <div class="art">
-            <ul class="section1">
-                <h1 id="year">2023</h1><br><br>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla repellat ratione optio! Illo sint distinctio obcaecati quo! Saepe repudiandae sapiente sequi deserunt magni quae possimus mollitia similique quasi cum?</li><br>
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eveniet obcaecati praesentium itaque laudantium facilis aliquid cum consectetur recusandae possimus ipsa corporis, quod distinctio placeat, provident, enim dignissimos molestias cupiditate.</li><br>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, tenetur accusamus nostrum quisquam rem fugit. Quos culpa iste aliquam voluptatem maiores odit nisi accusamus dolor, modi sed expedita, laboriosam similique.</li><br>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat corrupti illo architecto ex aliquam eveniet eligendi facilis perspiciatis repellendus totam, accusantium amet officia possimus atque quisquam. Aperiam, fugiat minima.</li><br>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odio sunt incidunt ad laudantium doloribus quisquam veniam fugiat assumenda ut? Esse dolor enim quis! Quae numquam aperiam a illo deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum excepturi ipsam facilis ipsum voluptates eaque nam nemo tempora maiores. Dignissimos iure harum exercitationem quam magnam officia dolor reprehenderit nostrum illo.</li><br>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, quam nesciunt. Pariatur magni debitis eveniet sit aliquid minus ad, officiis aspernatur, quaerat quis quisquam autem repudiandae soluta labore quod ratione.</li>
-            </ul>
-            
-        
-        </div>
-    </section>
-    <section class="section2">
-        <div class="art2">
-        <ul class="section2">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        </ul>
-        </div>
-    </section>
-</div>
-<div class="side2"></div>
-    <footer>
-        <div class="Foot">
-            <pre><p id="ft"><i class="fa-sharp fa-solid fa-copyright"></i>2023 | MULTI-COGNITION </p></pre>
-        </div>
-    </footer>
+body{
+    background-color:rgb(61, 89, 168);
+}
 
-    </body>
-</html>
+.overlap {
+    padding-top: 50px;
+    padding-left: 25em;
+    height: 180px;
+    width: 1100em;
+    margin-right: 2000em;
+    margin-left: 10em;
+}
+
+img{
+    margin-left: -35em;
+    background-size: cover;
+    height: 8em;
+    width: 8em;
+}
+
+h1 {
+    background-color: rgb(20, 57, 163);
+    color: white;
+    font-size: 5rem; /* Adjust the font size for smaller screens */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Heading {
+    background-color: rgb(20, 57, 163);
+    height: 150px;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    padding-left: 35em;
+}
+
+hr {
+    width: 100%;
+    height: 5px;
+    color: black;
+    background-color: black;
+}
+
+.navbar {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 89, 168);
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+}
+
+.fa-solid {
+    margin-top: 6em;
+    margin-left: 30px; /* Adjust the margin for smaller screens */
+    color: white;
+    margin-right: 4em;
+}
+
+nav {
+    background-color: rgb(61, 89, 168);
+    overflow: hidden;
+    margin-top: 6em;
+}
+
+nav a {
+    float: left;
+    display: block;
+    background-color: rgb(61, 89, 168);
+    color: white;
+    font-size: 1.2em; /* Adjust the font size for smaller screens */
+    text-align: center;
+    margin-left: -1px;
+    margin-right: 1em; /* Adjust the margin for smaller screens */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.bg-col{
+    background-color: rgb(56, 76, 178);
+    filter: blur(2px);
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.art {
+    margin-left: 30px;
+}
+
+.art2 {
+    margin-left: 30px;
+}
+
+
+ul {
+    height: 39em;
+    list-style-type: none;
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cen{
+    padding-left: 12em;
+}
+
+.section1{
+    color: white;
+    padding-top: 5em;
+    width: 45em;
+    margin-left: 7rem;
+}
+
+
+#png{
+    background-image: url("group.png");
+    height: 10em;
+    width: 10em;
+    background-size: 10em;
+    margin-left: 10em;
+    margin-bottom: -1em;
+}
+
+#cen2{
+    margin-left: 4em;
+}
+
+.section2{
+    color: white;
+    width: 18em;
+    margin: -32em 0em -10rem 30em;
+}
+
+#png2{
+    background-image: url("news1.png");
+    height: 6em;
+    width: 6em;
+    background-size: 7em;
+    margin-left: 4em;
+}
+
+.content{
+    margin-left: em;
+}
+
+
+.Foot {
+    height: 160px;
+    margin-top: 40rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    background-color: rgb(20, 57, 163);
+}
+p#ft{
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-copyright {
+    margin-right: 10px;
+    margin-top: -0.1em;
+}
+
+p {
+    color: white;
+}
+
+
+.side1{
+    background-color: rgb(20, 57, 163);
+    height: 114em;
+    width: 8em;
+    position: absolute;
+    overflow: auto;
+}
+
+.side2{
+    display: flexbox;
+    justify-content: flex-end;
+    background-color:rgb(20, 57, 163) ;
+    height: 114em;
+    width: 8em;
+    margin-top: -64em;
+    margin-left: 111em;
+    position: absolute;
+}
+
+
+/* Slidebar*/
+
+
+.slider-container {
+    text-align: center;
+    width: 110em;
+    margin-top: 7em;
+    margin-left: 5em;
+    position: absolute;
+}
+
+#range {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px;
+    margin: 10px 0;
+    background: rgb(20, 57, 163);
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 40px;
+    background: rgb(20, 57, 163);
+    cursor:grab;
+    border: 5px double rgb(61, 89, 168);
+    border-radius: 30%;
+}
+
+#beg-year{
+    font-size: 40px;
+    color: white;
+}
+
+#selected-year {
+    font-size: 40px;
+    color: white;
+}
+
+@media only screen and (max-width: 1080px) {
+    /* Adjust styles for screens with a maximum width of 768 pixels */
+    h1 {
+        font-size: 3em;
+    }
+
+    .navbar {
+        font-size: 1em;
+    }
+
+    hr{
+        width: 30em;
+    }
+    .art{
+        margin-left: 5em;
+    }
+
+    #png{
+        margin-left: 1em;
+    }
+
+    #cen{
+        margin-left: -10em;
+    }
+
+    #png2{
+        margin-left: 1em;
+    }
+
+    #cen2{
+        margin-left: 0em;
+    }
+
+    .section1{
+        padding-left: 0em;
+        margin: 0em;
+        margin-left: -5em;
+        font-size: 0.9em;
+        width: 30em;
+    }
+    .section2 {
+        padding-left: 2em;
+        padding-top: 5em;
+        margin: 0 0 0 0;
+        font-size: 0.9em;
+        width: 0em;
+    }
+
+    footer{
+        margin-top: -20em;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .side1, .side2{
+        display:none;
+    }
+    .logo{
+        display: none;
+    }
+    .Heading{
+        margin: 0;
+        padding: 0 1em 0 0;
+    }
+    h1{
+        font-size: 3em;
+        color: white;
+    }
+    .overlap{
+        height: 10em;
+        padding-left:5em;
+        margin-top: -2em;
+        margin-left: -1em;
+    }
+
+    .navbar{
+        height: 22em;
+        margin-bottom: -2em;
+    }
+
+    nav{
+    }
+    .slider-container{
+        width: 26em;
+        margin: 0;
+    }
+    input[type="range"]::-webkit-slider-thumb{
+        width: 2em;
+        height: 2em;
+    }
+    .Foot{
+        width: 30em;
+    }
+
+    #year{
+        margin-left: -2.3em;
+        padding: 0;
+    }
+
+    #range{
+        padding-left: 1em;
+    }
+
+    #call{
+        margin-top: 4em;
+        margin-right: -0.01em;
+        margin-left: -0.1em;
+    }
+}
+
+
+
+/*Section*/
+#year{
+    padding-top: 5em;
+    padding-left: 9em;
+    font-size: 3em;
+    background-color: rgb(61, 89, 168);
+}
+
+li{
+    margin-left: 10em;
+    padding-left: 6em;
+    text-align: center;
+}
